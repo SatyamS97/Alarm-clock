@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+    padding-top:50px;
+}
+
+
+
+body {
+    border: 20px solid blue;
+    border-radius: 20px;
+    padding: 40px;
+    width: 80%;
+    height: 1000px;
+    margin: 0 auto;
+    background: url('wall3.jpg');
+}
+
+#clock {
+    height:120px;
+    font-size: 60px;
+    font-family: arial;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  color:orange;
+}
+
+h2 {
+	text-align:center;
+  
+
+}
+
+#alarm-container {
+	text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 0.5rem;
+  border-radius: 1rem;
+  background-color:whitesmoke;
+  box-shadow: 0px 0px 8px 7px red ;
+  background:url('wall7.jpg');
+
+}
+
+label {
+	display:inline-block;
+    
+}
+
+.timeofday {
+    background-color: #eee;
+}
+
+.bigger {
+    font-weight:bold;
+    font-size: 20px; 
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#setButton {
+    
+    float: left;
+    font-size:xx-large;
+    font-style: bold;
+    padding: 10px;
+    margin-top: 15px;
+    border-color: red;
+    border-radius: 10rem;
+    background-color:whitesmoke;
+    box-shadow: 0px 0px 8px 7px blue;
+    cursor: pointer;
+}
+
+#clearButton {
+
+    float: right;
+    font-size:xx-large;
+    font-style: bold;
+    padding: 10px;
+    margin-top: 15px;
+    border-color: red;
+    border-radius: 10rem;
+    background-color:whitesmoke;
+    box-shadow: 0px 0px 8px 7px blue;
+    cursor: pointer;
+    
+}
+
+
+
